@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === 'dev') {
 // express app 적용
 const app = express();
 
-app.get("/", (req, res) => res.send(`${process.env.TEST_DATA} + TEST_AAA`));
+app.get("/", (req, res) => res.send(`${process.env.TEST_DATA} + TEST_AAAA`));
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
